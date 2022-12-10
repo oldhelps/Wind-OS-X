@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.easyui.min.js"></script>
+    <script src="./js/easyui-lang-zh_CN.js"></script>
+    <!-- <script src="./js/i2.js"></script> -->
+    <link rel="stylesheet" href="easyui.css">
+    <link rel="stylesheet" href="icon.css">
+    <link rel="stylesheet" href="./css/color.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <style>
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+    </style>
+    <title>Wind OS X</title>
+</head>
+<body style="background-image: url(./desktop.png);">
+   <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.86xCh3O3zQGw0gpfRaJ4QAHaHa?w=162&h=180&c=7&r=0&o=5&pid=1.7" alt="" style="width:150px;height:150px;"><br>
+   <a href="notepad.htm" >Notepad</a>
+</body>
+<script>
+    $(document).ready(function () {
+        if(!localStorage.ied){
+            location="install.html";
+        }
+        $(".sm").hide();
+        $(window).keypress(function (e) { 
+            
+        });
+    });
+</script>
+</html>
